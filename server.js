@@ -46,6 +46,12 @@ app.use(express.static(path.join(__dirname, 'public'), { maxAge: week }));
 /**
  * Application routes.
  */
+/** Allow CORS requests, to use this server from local html */
+app.use(function(req, res, next) {
+  res.header("Access-Control-Allow-Origin", "*");
+  res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
+  next();
+});
 
 app.get('/', API.index);
 
