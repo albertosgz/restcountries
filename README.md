@@ -2,6 +2,13 @@ restcountries
 =============
 
 Get information about countries via a RESTful API (Node.JS Version)
+*Forked version to support CORS*
+
+## INSTALLATION
+1. sudo npm install
+2. npm start
+
+It should start listening on localhost:3000
 
 ## API
 
