@@ -4,7 +4,7 @@
   "description": "Get information about countries via a RESTful API (Node.JS Version)",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "nodejs server.js"
   },
   "author": "Hengki Sihombing <hengki.sihombing@gmail.com>",
   "license": "MIT",
